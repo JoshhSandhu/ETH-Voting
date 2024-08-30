@@ -6,7 +6,7 @@ contract Election{
     string public candidate; //this a state variable 
     //constructor
 
-    constructor () public{
+    constructor (string _candidate) public{
         candidate = "Candidate 1";
     }
 }
