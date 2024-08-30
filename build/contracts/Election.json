@@ -29,7 +29,7 @@
   "sourceMap": "36:216:0:-;;;184:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;184:65:0;216:25;;;;;;;;;;;;;;;;;:9;:25;;;;;;;;;;;;:::i;:::-;;36:216;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
   "deployedSourceMap": "36:216:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:216:0;;;;;;;;;;;;;;;;;;;108:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;108:23:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity >=0.4.22 <0.8.0;\r\n\r\ncontract Election{\r\n    //store a candidate\r\n    // read candidate\r\n    string public candidate; //this a state variable \r\n    //constructor\r\n\r\n    constructor () public{\r\n        candidate = \"Candidate 1\";\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\joshs\\election\\contracts\\Election.sol",
+  "sourcePath": "C:\\Users\\joshs\\OneDrive\\Documents\\My personal projects\\ETH_DAPP\\-1_ETH_DAPP\\contracts\\Election.sol",
   "ast": {
     "absolutePath": "project:/contracts/Election.sol",
     "exportedSymbols": {
@@ -376,13 +376,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xa110D85a1a42D59c37055582F60216F5f2205395",
-      "transactionHash": "0x575bad369ef1831078525eb27e6ee77d28689346816a517a26ce0cbd573a377e"
+      "address": "0x1B1021B1B1fBBe245B55f15904B7Bb640f9c53B8",
+      "transactionHash": "0x311e0370541f7d21237f28429b8b9f0357ef9d665dcb52505ffd8230f6df0cae"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-08-30T17:40:34.005Z",
-  "networkType": "ethereum",
+  "updatedAt": "2024-08-30T22:58:24.170Z",
   "devdoc": {
     "methods": {}
   },
