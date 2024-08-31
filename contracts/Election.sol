@@ -1,4 +1,4 @@
-pragma solidity >=0.4.22 <0.8.0;
+pragma solidity ^0.5.0;
 
 contract Election{
     //store a candidate
@@ -6,7 +6,7 @@ contract Election{
     string public candidate; //this a state variable 
     //constructor
 
-    constructor (string _candidate) public{
+    constructor (string memory _candidate) public{
         candidate = "Candidate 1";
     }
 }
